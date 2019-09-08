@@ -13,7 +13,7 @@ Contact at,
 With Love, </br>
 NALLASIVAN GOVINDASAMY <i>[Technical and Solution Architect, REACTJS Expert, FULL STAKE SME, DATABASE EXPERT]</i>
 
-</br></br>
+
 
 <i>Designed by Nallasivan Govindasamy</i>
 
