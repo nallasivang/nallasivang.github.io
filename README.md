@@ -1,19 +1,18 @@
 
-# Nallasivan Govindasamy - 16 Years of experienced IT professional who always love to learn new technologies. This webpage is meant to create to showcase Nallasivan's key highlights in his 16 years of successful IT Career.
+# Nallasivan Govindasamy - 15 Years of experience and Technically strong IT professional. 
+
+## Love to learn new technologies.
 
 
-Contact at,
-<b>Email</b>
-<UL>
-	<LI>nallasivan@gmail.com</LI>
-	<LI>nallasivan@live.com</LI>
-	<LI>nallasivan@yandex.com</LI>
-</UL>
+Contact me, 
 
-With Love, </br>
-NALLASIVAN GOVINDASAMY <i>[Technical and Solution Architect, REACTJS Expert, FULL STAKE SME, DATABASE EXPERT]</i>
+* nallasivan@gmail.com
+* nallasivan@live.com
+* nallasivan@yandex.com
 
 
 
-<i>Designed by Nallasivan Govindasamy</i>
+
+
+#### Designed by Nallasivan Govindasamy
 
