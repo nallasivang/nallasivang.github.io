@@ -29,7 +29,7 @@ body {
 
 .container .card .face.face1 {
     position: relative;
-    background: rgb(16, 48, 108);
+    background: rgb(216, 48, 108);
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
