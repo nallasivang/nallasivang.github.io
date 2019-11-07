@@ -23,6 +23,8 @@ body {
 
 .container .card .face {
     transition: 1s;
+margin-right :50px;
+
 }
 
 .container .card .face.face1 {
