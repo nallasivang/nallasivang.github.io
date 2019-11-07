@@ -12,7 +12,7 @@ body {
 .container {
     position: relative;
     display: flex;
-    //justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .container .card {
@@ -23,7 +23,7 @@ body {
 
 .container .card .face {
     transition: 1s;
-margin-right :50px;
+    margin-right :50px;
 
 }
 
@@ -39,7 +39,7 @@ margin-right :50px;
 }
 
 .container .card:hover .face.face1 {
-    background: #3a93e7;
+    background: #332255;
     transform: translateY(0);
 }
 
