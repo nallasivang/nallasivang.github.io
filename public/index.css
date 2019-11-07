@@ -22,11 +22,10 @@ body {
 }
 
 .container .card .face {
-    width:270px;
+    width: 270px;
     height: 200px;
     transition: 1s;
-    margin-right :50px;
-
+    margin-right: 50px;
 }
 
 .container .card .face.face1 {
@@ -41,7 +40,7 @@ body {
 }
 
 .container .card:hover .face.face1 {
-    background: #332255;
+    background: #3a93e7;
     transform: translateY(0);
 }
 
