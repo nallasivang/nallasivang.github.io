@@ -38,8 +38,10 @@ body {
 }
 
 .container .card:hover .face.face1 {
+    width : 270px;
     background: #3a93e7;
     transform: translateY(0);
+    margin-right: 50px;
 }
 
 .container .card .face.face1 .content {
