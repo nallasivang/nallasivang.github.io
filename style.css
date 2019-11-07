@@ -22,10 +22,8 @@ body {
 }
 
 .container .card .face {
-    width: 270px;
-    height: 200px;
     transition: 1s;
-    margin-right: 50px;
+   
 }
 
 .container .card .face.face1 {
@@ -58,7 +56,7 @@ body {
 }
 
 .container .card .face.face1 .content h3 {
-    margin: 10px 0 0;
+    margin: 0 0 0;
     padding: 0;
     color: rgb(177, 194, 248);
     text-align: center;
