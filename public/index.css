@@ -22,6 +22,8 @@ body {
 }
 
 .container .card .face {
+    width:270px;
+    height : 220px;
     transition: 1s;
     margin-right :50px;
 
