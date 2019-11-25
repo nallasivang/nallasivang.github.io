@@ -4,5 +4,6 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to left, #c2e59c, #64b3f4);
+    background-image: linear-gradient(to left, rgb(15, 110, 50), rgb(50, 0, 15));
+    color:rgba(211, 246, 70, 0.77);
 }
