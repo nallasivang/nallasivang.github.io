@@ -1,0 +1,995 @@
+/* line 3, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_reset.sass */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, em, img, small, strong, sub, sup, b, u, i, ol, ul, li, fieldset, form, label, article, aside, canvas, embed, figure, figcaption, footer, header, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 10, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_reset.sass */
+article, aside, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 12, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_reset.sass */
+ol, ul {
+  list-style: none;
+}
+
+/* line 14, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_reset.sass */
+blockquote {
+  quotes: none;
+}
+/* line 16, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_reset.sass */
+blockquote:before, blockquote:after {
+  content: "";
+}
+
+@font-face {
+  font-family: "PTSans";
+  src: url("../fonts/PTS55F-webfont.eot");
+  src: url("../fonts/PTS55F-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/PTS55F-webfont.woff") format("woff"), url("../fonts/PTS55F-webfont.ttf") format("truetype"), url("../fonts/PTS55F-webfont.svg#PTSansRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans";
+  src: url("../fonts/PTS56F-webfont.eot");
+  src: url("../fonts/PTS56F-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/PTS56F-webfont.woff") format("woff"), url("../fonts/PTS56F-webfont.ttf") format("truetype"), url("../fonts/PTS56F-webfont.svg#PTSansItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PTSans";
+  src: url("../fonts/PTS75F-webfont.eot");
+  src: url("../fonts/PTS75F-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/PTS75F-webfont.woff") format("woff"), url("../fonts/PTS75F-webfont.ttf") format("truetype"), url("../fonts/PTS75F-webfont.svg#PTSansBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DroidSansMono";
+  src: url("../fonts/DroidSansMono-webfont.eot");
+  src: url("../fonts/DroidSansMono-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/DroidSansMono-webfont.woff") format("woff"), url("../fonts/DroidSansMono-webfont.ttf") format("truetype"), url("../fonts/DroidSansMono-webfont.svg##DroidSansMonoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 62, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.block, .content, .quotes, .hero, .sample, .subnav, header {
+  zoom: 1;
+}
+/* line 64, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.block:before, .content:before, .quotes:before, .hero:before, .sample:before, .subnav:before, header:before, .block:after, .content:after, .quotes:after, .hero:after, .sample:after, .subnav:after, header:after {
+  content: "";
+  display: table;
+}
+/* line 68, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.block:after, .content:after, .quotes:after, .hero:after, .sample:after, .subnav:after, header:after {
+  clear: both;
+}
+
+/* line 71, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.sample-erb, .sample-haml {
+  color: transparent;
+  font: 0/0 a;
+}
+
+@-webkit-keyframes bob {
+  /* line 78, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+  from {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 80, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+  to {
+    -webkit-transform: translateY(3px);
+  }
+}
+
+@-moz-keyframes bob {
+  /* line 83, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+  from {
+    -moz-transform: translateY(0);
+  }
+
+  /* line 85, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+  to {
+    -moz-transform: translateY(3px);
+  }
+}
+
+@-o-keyframes bob {
+  /* line 88, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+  from {
+    -o-transform: translateY(0);
+  }
+
+  /* line 90, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+  to {
+    -o-transform: translateY(3px);
+  }
+}
+
+@keyframes bob {
+  /* line 93, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+  from {
+    transform: translateY(0);
+  }
+
+  /* line 95, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+  to {
+    transform: translateY(3px);
+  }
+}
+
+/* line 53, /Users/a_matsuda/.rbenv/versions/2.7.0-dev/lib/ruby/gems/2.7.0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+body {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/* line 57, /Users/a_matsuda/.rbenv/versions/2.7.0-dev/lib/ruby/gems/2.7.0/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html > body {
+  font-size: 16px;
+}
+
+/* line 7, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+html {
+  background: #eaeae1 url("../images/bg-body.png") bottom left repeat-x;
+}
+
+/* line 10, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+body {
+  color: #3e3e29;
+  font-family: "PTSans", "Arial", "Helvetica", "sans-serif";
+}
+
+/* line 16, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+h1 {
+  font-size: 1.875em;
+  line-height: 1.6em;
+  margin-bottom: 0.8em;
+  color: #808067;
+  text-align: center;
+}
+/* line 21, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+.content h1 {
+  border-bottom-style: solid;
+  border-bottom-width: 0.03333em;
+  padding-bottom: 0.76667em;
+  border-color: #d2d2c7;
+}
+/* line 24, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+h1 img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.33333em;
+}
+/* line 55, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.ie h1 {
+  font-size: 3.125em;
+  line-height: 1.44em;
+  margin-bottom: 0.48em;
+  text-align: left;
+}
+/* line 35, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+.content .ie h1 {
+  border-bottom-style: solid;
+  border-bottom-width: 0.02em;
+  padding-bottom: 0.46em;
+}
+/* line 37, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+.ie h1 img {
+  float: right;
+  margin: 0;
+  position: relative;
+  top: -2px;
+  vertical-align: top;
+}
+@media screen and (min-width: 500px) {
+  /* line 16, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+  h1 {
+    font-size: 3.125em;
+    line-height: 1.44em;
+    margin-bottom: 0.48em;
+    text-align: left;
+  }
+  /* line 35, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+  .content h1 {
+    border-bottom-style: solid;
+    border-bottom-width: 0.02em;
+    padding-bottom: 0.46em;
+  }
+  /* line 37, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+  h1 img {
+    float: right;
+    margin: 0;
+    position: relative;
+    top: -2px;
+    vertical-align: top;
+  }
+}
+
+/* line 44, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+h2 {
+  font-size: 1.625em;
+  line-height: 1.84615em;
+  color: #3e3e29;
+  font-weight: bold;
+}
+
+/* line 49, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+h3 {
+  font-size: 1.1875em;
+  line-height: 1.26316em;
+  line-height: 2.52632em;
+  color: #808067;
+}
+
+/* line 54, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+p {
+  margin-bottom: 1.5em;
+}
+
+/* line 57, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+ol {
+  list-style: decimal;
+}
+
+/* line 60, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+ul {
+  list-style: disc;
+}
+
+/* line 63, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+li {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  margin-left: 2em;
+}
+/* line 67, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+li p {
+  margin: 0;
+}
+
+/* line 70, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+pre {
+  font-size: 0.75em;
+  line-height: 2em;
+  margin-top: 0em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  background: white;
+  font-family: "DroidSansMono", Courier, monospace;
+  overflow-x: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* line 78, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+pre.haml {
+  background: #cdd7d9;
+}
+/* line 80, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+pre .tag {
+  color: #3e3e29;
+}
+/* line 82, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+pre .pun {
+  color: #63878b;
+}
+/* line 55, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.ie pre {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 0em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+}
+@media screen and (min-width: 500px) {
+  /* line 70, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+  pre {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 0em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}
+
+/* line 90, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+a {
+  color: #e73e33;
+  text-decoration: none;
+}
+/* line 93, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+a:hover, a:focus {
+  color: #ec6961;
+  text-decoration: underline;
+}
+
+/* line 98, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+strong {
+  color: #3e3e29;
+  font-weight: bold;
+}
+
+/* line 102, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+code {
+  background: white;
+  border: 1px solid #deded5;
+  border-radius: 2px;
+  color: #808067;
+  font-family: "DroidSansMono", Courier, monospace;
+  padding: 0 3px;
+}
+
+/* line 112, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+.cell {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 90%;
+}
+
+/* line 117, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+.block, .content, .quotes, .hero, .sample {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/* line 55, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.ie .content {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+@media screen and (min-width: 750px) {
+  /* line 122, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_base.sass */
+  .content {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+/* line 19 */
+.btn {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e73e33), color-stop(100%, #cf2318));
+  background: -webkit-linear-gradient(#e73e33, #cf2318);
+  background: -moz-linear-gradient(#e73e33, #cf2318);
+  background: -o-linear-gradient(#e73e33, #cf2318);
+  background: -ms-linear-gradient(#e73e33, #cf2318);
+  background: linear-gradient(#e73e33, #cf2318);
+  margin-bottom: 1.33333em;
+  -moz-transition: background 0.2s ease-in-out;
+  -webkit-transition: background 0.2s ease-in-out;
+  -o-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+  background-color: #e73e33;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #6f1e19, 0 2px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 48px;
+  margin-right: 10px;
+  padding: 0 40px;
+  text-align: center;
+}
+/* line 34 */
+.btn:hover, .btn:focus {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ea544a), color-stop(100%, #e73e33));
+  background: -webkit-linear-gradient(#ea544a, #e73e33);
+  background: -moz-linear-gradient(#ea544a, #e73e33);
+  background: -o-linear-gradient(#ea544a, #e73e33);
+  background: -ms-linear-gradient(#ea544a, #e73e33);
+  background: linear-gradient(#ea544a, #e73e33);
+  color: white;
+  text-decoration: none;
+}
+/* line 39 */
+.btn:active {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e4281c), color-stop(100%, #b82016));
+  background: -webkit-linear-gradient(#e4281c, #b82016);
+  background: -moz-linear-gradient(#e4281c, #b82016);
+  background: -o-linear-gradient(#e4281c, #b82016);
+  background: -ms-linear-gradient(#e4281c, #b82016);
+  background: linear-gradient(#e4281c, #b82016);
+}
+
+/* line 46 */
+.quotes li {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 1.5em;
+  position: relative;
+}
+/* line 51 */
+.quotes blockquote {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background: #3e3e29;
+  color: #eaeae1;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  text-align: center;
+}
+/* line 60 */
+.quotes blockquote:after {
+  background: url("../images/bg-quote.png") no-repeat;
+  bottom: -22px;
+  content: "";
+  display: block;
+  height: 22px;
+  position: absolute;
+  right: 35px;
+  width: 25px;
+}
+/* line 69 */
+.quotes a {
+  line-height: 3em;
+  font-weight: bold;
+}
+/* line 76 */
+.ie .quotes li {
+  float: left;
+  margin: 0;
+  width: 32%;
+}
+/* line 80 */
+.ie .quotes .alt {
+  margin: 0 2%;
+}
+/* line 82 */
+.ie .quotes .alt blockquote {
+  margin-top: 3em;
+}
+/* line 84 */
+.ie .quotes .alt blockquote:after {
+  background: url("../images/bg-quote-alt.png") no-repeat;
+  bottom: auto;
+  top: -21px;
+}
+/* line 88 */
+.ie .quotes .alt a {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+@media screen and (min-width: 815px) {
+  /* line 76 */
+  .quotes li {
+    float: left;
+    margin: 0;
+    width: 32%;
+  }
+  /* line 80 */
+  .quotes .alt {
+    margin: 0 2%;
+  }
+  /* line 82 */
+  .quotes .alt blockquote {
+    margin-top: 3em;
+  }
+  /* line 84 */
+  .quotes .alt blockquote:after {
+    background: url("../images/bg-quote-alt.png") no-repeat;
+    bottom: auto;
+    top: -21px;
+  }
+  /* line 88 */
+  .quotes .alt a {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+}
+
+/* line 97 */
+.subnav a {
+  color: #849ea2;
+  font-weight: bold;
+}
+/* line 55, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.ie .subnav {
+  list-style: none;
+  position: relative;
+  top: -37px;
+}
+/* line 104 */
+.ie .subnav li {
+  background: #eaeae1;
+  border-right: 1px solid #d2d2c7;
+  float: left;
+  margin: 0;
+}
+/* line 109 */
+.ie .subnav li:first-child a {
+  padding-left: 0;
+}
+/* line 111 */
+.ie .subnav a {
+  display: block;
+  padding: 0 1em;
+}
+@media screen and (min-width: 500px) {
+  /* line 95 */
+  .subnav {
+    list-style: none;
+    position: relative;
+    top: -37px;
+  }
+  /* line 104 */
+  .subnav li {
+    background: #eaeae1;
+    border-right: 1px solid #d2d2c7;
+    float: left;
+    margin: 0;
+  }
+  /* line 109 */
+  .subnav li:first-child a {
+    padding-left: 0;
+  }
+  /* line 111 */
+  .subnav a {
+    display: block;
+    padding: 0 1em;
+  }
+}
+
+/* line 121 */
+header {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+/* line 125 */
+header li {
+  font-weight: bold;
+  list-style: none;
+  margin: 0;
+}
+/* line 129 */
+header li a {
+  border-top-style: solid;
+  border-top-width: 0.0625em;
+  padding-top: 1.4375em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  border-color: #d2d2c7;
+  display: block;
+  text-align: center;
+}
+/* line 136 */
+header li:last-child a {
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.6875em;
+}
+/* line 138 */
+header .logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+  width: 276px;
+}
+/* line 143 */
+header img {
+  display: block;
+  max-width: 100%;
+  width: 276px;
+}
+/* line 148 */
+.ie header ul {
+  float: right;
+  margin-top: 45px;
+}
+/* line 151 */
+.ie header li {
+  float: left;
+  margin: 0 0 0 2em;
+}
+/* line 154 */
+.ie header li a {
+  border: 0;
+  padding: 0;
+}
+/* line 157 */
+.ie header li:last-child a {
+  border: 0;
+}
+/* line 159 */
+.ie header .logo {
+  float: left;
+  margin: 0;
+}
+@media screen and (min-width: 815px) {
+  /* line 148 */
+  header ul {
+    float: right;
+    margin-top: 45px;
+  }
+  /* line 151 */
+  header li {
+    float: left;
+    margin: 0 0 0 2em;
+  }
+  /* line 154 */
+  header li a {
+    border: 0;
+    padding: 0;
+  }
+  /* line 157 */
+  header li:last-child a {
+    border: 0;
+  }
+  /* line 159 */
+  header .logo {
+    float: left;
+    margin: 0;
+  }
+}
+
+/* line 165 */
+footer {
+  background: url("../images/bg-footer.png") 0 0 repeat-x;
+  padding-top: 50px;
+  text-align: center;
+}
+/* line 169 */
+footer p {
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+  margin-top: 0em;
+  padding-top: 3.69231em;
+  padding-bottom: 3.69231em;
+  margin-bottom: 0em;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0d8), color-stop(100%, #eaeae1));
+  background: -webkit-linear-gradient(#e0e0d8, #eaeae1);
+  background: -moz-linear-gradient(#e0e0d8, #eaeae1);
+  background: -o-linear-gradient(#e0e0d8, #eaeae1);
+  background: -ms-linear-gradient(#e0e0d8, #eaeae1);
+  background: linear-gradient(#e0e0d8, #eaeae1);
+  background-color: #e0e0d8;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* line 183 */
+.hero {
+  text-align: center;
+}
+/* line 186 */
+.hero img {
+  max-width: 100%;
+}
+/* line 188 */
+.hero .boat {
+  margin-top: -40px;
+  position: relative;
+}
+/* line 191 */
+.hero .boat-img {
+  -webkit-animation: bob 1s ease-in-out alternate 100;
+  -moz-animation: bob 1s ease-in-out alternate 100;
+  -o-animation: bob 1s ease-in-out alternate 100;
+  animation: bob 1s ease-in-out alternate 100;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+/* line 199 */
+.hero h1 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  margin-bottom: 1.2em;
+}
+/* line 202 */
+.hero b {
+  display: block;
+}
+/* line 208 */
+.ie .hero .boat-img {
+  left: 50%;
+  margin-left: -250px;
+}
+/* line 211 */
+.ie .hero h1 {
+  font-size: 1.875em;
+  line-height: 1.6em;
+  margin-bottom: 0.8em;
+  text-align: center;
+}
+/* line 215 */
+.ie .hero b {
+  display: inline;
+}
+@media screen and (min-width: 500px) {
+  /* line 208 */
+  .hero .boat-img {
+    left: 50%;
+    margin-left: -250px;
+  }
+  /* line 211 */
+  .hero h1 {
+    font-size: 1.875em;
+    line-height: 1.6em;
+    margin-bottom: 0.8em;
+    text-align: center;
+  }
+  /* line 215 */
+  .hero b {
+    display: inline;
+  }
+}
+/* line 55, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.ie .hero {
+  text-align: left;
+}
+/* line 219 */
+.ie .hero h1 {
+  text-align: left;
+}
+/* line 221 */
+.ie .hero .box {
+  float: left;
+  width: 50%;
+}
+/* line 224 */
+.ie .hero .boat {
+  margin-top: 0;
+}
+/* line 226 */
+.ie .hero .boat-img {
+  left: 0;
+  margin-left: 0;
+}
+/* line 229 */
+.ie .hero b {
+  display: block;
+}
+@media screen and (min-width: 815px) {
+  /* line 183 */
+  .hero {
+    text-align: left;
+  }
+  /* line 219 */
+  .hero h1 {
+    text-align: left;
+  }
+  /* line 221 */
+  .hero .box {
+    float: left;
+    width: 50%;
+  }
+  /* line 224 */
+  .hero .boat {
+    margin-top: 0;
+  }
+  /* line 226 */
+  .hero .boat-img {
+    left: 0;
+    margin-left: 0;
+  }
+  /* line 229 */
+  .hero b {
+    display: block;
+  }
+}
+/* line 232 */
+.ie .hero .boat {
+  margin-top: -40px;
+}
+/* line 234 */
+.ie .hero b {
+  display: inline;
+}
+@media screen and (min-width: 940px) {
+  /* line 232 */
+  .hero .boat {
+    margin-top: -40px;
+  }
+  /* line 234 */
+  .hero b {
+    display: inline;
+  }
+}
+/* line 237 */
+.ie .hero h1 {
+  font-size: 2.5em;
+  line-height: 1.2em;
+  margin-bottom: 0.6em;
+}
+@media screen and (min-width: 1100px) {
+  /* line 237 */
+  .hero h1 {
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin-bottom: 0.6em;
+  }
+}
+
+/* line 243 */
+.sample {
+  background-color: white;
+  position: relative;
+}
+/* line 247 */
+.sample .box {
+  position: relative;
+}
+/* line 249 */
+.sample .box:first-child {
+  border-bottom: 5px solid #eaeae1;
+}
+/* line 251 */
+.sample pre {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background: none;
+  color: #808067;
+  margin: 0;
+}
+/* line 261 */
+.ie .sample pre {
+  margin: 0 40px;
+}
+@media screen and (min-width: 750px) {
+  /* line 261 */
+  .sample pre {
+    margin: 0 40px;
+  }
+}
+/* line 55, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.ie .sample {
+  background: white url("../images/bg-sample.png") center repeat-y;
+}
+/* line 265 */
+.ie .sample .box {
+  float: left;
+  width: 50%;
+}
+/* line 268 */
+.ie .sample .box:first-child {
+  border-bottom: 0;
+}
+/* line 270 */
+.ie .sample pre {
+  margin: 0;
+}
+@media screen and (min-width: 875px) {
+  /* line 243 */
+  .sample {
+    background: white url("../images/bg-sample.png") center repeat-y;
+  }
+  /* line 265 */
+  .sample .box {
+    float: left;
+    width: 50%;
+  }
+  /* line 268 */
+  .sample .box:first-child {
+    border-bottom: 0;
+  }
+  /* line 270 */
+  .sample pre {
+    margin: 0;
+  }
+}
+/* line 273 */
+.ie .sample:before {
+  background: url("../images/bg-sample-arrow.png") no-repeat;
+  content: "";
+  display: block;
+  height: 87px;
+  left: 50%;
+  margin: -43px 0 0 -62px;
+  position: absolute;
+  top: 50%;
+  width: 125px;
+  z-index: 1;
+}
+/* line 284 */
+.ie .sample pre {
+  margin: 0 40px;
+}
+@media screen and (min-width: 1050px) {
+  /* line 273 */
+  .sample:before {
+    background: url("../images/bg-sample-arrow.png") no-repeat;
+    content: "";
+    display: block;
+    height: 87px;
+    left: 50%;
+    margin: -43px 0 0 -62px;
+    position: absolute;
+    top: 50%;
+    width: 125px;
+    z-index: 1;
+  }
+  /* line 284 */
+  .sample pre {
+    margin: 0 40px;
+  }
+}
+
+/* line 287 */
+.sample-erb, .sample-haml {
+  background: url("../images/bg-sample-erb.png") no-repeat;
+  height: 85px;
+  left: -15px;
+  margin: 0;
+  position: absolute;
+  top: -24px;
+  width: 108px;
+}
+
+/* line 296 */
+.sample-haml {
+  background: url("../images/bg-sample-haml.png") no-repeat;
+  left: auto;
+  right: -15px;
+}
+
+/* line 305 */
+.about img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+/* line 309 */
+.about h2 {
+  margin-top: 0.92308em;
+}
+/* line 55, /Users/a_matsuda/src/github.com/haml/haml-site/src/stylesheets/_settings.sass */
+.ie .about {
+  background: url("../images/bg-about.png") right bottom no-repeat;
+}
+/* line 316 */
+.ie .about .box {
+  float: left;
+  width: 60%;
+}
+/* line 319 */
+.ie .about img {
+  float: right;
+  max-width: 40%;
+}
+@media screen and (min-width: 600px) {
+  /* line 304 */
+  .about {
+    background: url("../images/bg-about.png") right bottom no-repeat;
+  }
+  /* line 316 */
+  .about .box {
+    float: left;
+    width: 60%;
+  }
+  /* line 319 */
+  .about img {
+    float: right;
+    max-width: 40%;
+  }
+}
+
+/* line 327 */
+.error {
+  text-align: center;
+}
+/* line 329 */
+.error img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+/* line 333 */
+.error h2 {
+  margin-bottom: 0.46154em;
+}
