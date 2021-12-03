@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 	<head>
         <title>SECURITY HEADER TEST</title>
-		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; media-src 'self';">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'strict-dynamic' 'nonce-rAnd0m123' 'unsafe-inline' http: https:; object-src 'none'; base-uri 'none'; require-trusted-types-for 'script'; report-uri https://csp.example.com;">
+		<meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;"> 
-		<meta http-equiv="X-Content-Type-Options" content="nosniff">
+		<meta name="X-Content-Type-Options" value="nosniff">
 	</head>
 	<body>
 		<div>
