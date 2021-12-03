@@ -6,7 +6,21 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;"> 
 		<meta http-equiv="X-Content-Type-Options" content="nosniff">
 		<script nonce="EDNnf03nceIOfn39fn3e9h3sdfa">
-  			response.Headers.Add("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
+  			var myImage = document.querySelector('img');
+
+			var myRequest = new Request('flowers.jpg');
+
+			fetch(myRequest).then(function(response) 
+			{
+  				console.log(response.headers); // returns a Headers{} object
+  				response.blob().then(function(myBlob) {
+    				var objectURL = URL.createObjectURL(myBlob);
+    				myImage.src = objectURL;
+  				}
+			);
+			});
+			var myRequest1 = new Request('script-src');
+			myRequest1.Headers.Add("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
 		</script>
 	</head>
 	<body>
