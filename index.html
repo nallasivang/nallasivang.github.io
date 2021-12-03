@@ -2,19 +2,16 @@
 <html lang="en-US">
 	<head>
         <title>SECURITY HEADER TEST</title>
-		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'unsafe-inline'">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'nonce-EDNnf03nceIOfn39fn3e9h3sdfa';">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;"> 
 		<meta http-equiv="X-Content-Type-Options" content="nosniff">
-		<script language="javascript">
-			if (HttpContext.Current.Request.Url.Scheme.ToLower() == "https")
-			{
-				response.Headers.Add("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
-			}
-		</script>	
+		<script nonce="EDNnf03nceIOfn39fn3e9h3sdfa">
+  			response.Headers.Add("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
+		</script>
 	</head>
 	<body>
 		<div>
-			Welcome
+			Welcome Ver1
 		</div>
 	</body>
 </html>
